@@ -53,30 +53,33 @@ Requires-Dist: twine==5.1.1
 Requires-Dist: urllib3==2.2.3
 Requires-Dist: zipp==3.20.2
 
-# package_name
+# Img_prcs_package
 
 Description. 
-The package package_name is used to:
-	- 
-	-
+
+| The package Img_prcs_packageÂ is used to:                                                                                                                                                                                                       |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1. Processing<br />Â  Â  - Histogram matching<br />Â  Â  - Structural simalarity<br /><br />2. Resize Image Utils:<br />Â  Â  - Read Image<br />Â  Â  - Save Image<br />Â  Â  - Plot Image<br />Â  Â  - Plot result<br />Â  Â  - Plot Histogram |
 
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
 
 ```bash
-pip install package_name
+pip install Img_prcs_package
 ```
 
 ## Usage
 
 ```python
-from package_name.module1_name import file1_name
-file1_name.my_function()
+from Img_prcs_package.processing import combination
+combination.find_difference()
 ```
 
 ## Author
-My_name
+
+Dev_yuji
 
 ## License
+
 [MIT](https://choosealicense.com/licenses/mit/)
